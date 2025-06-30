@@ -521,6 +521,3 @@ Se quiser, seguimos detalhando a configuração do Ingress.
 12. (Opcional) Configurar ingress
 
 ---
-
-Quer começar executando o passo 1 com comandos para copiar e colar?
-Posso ir te guiando etapa por etapa e te ajudando a resolver dúvidas no caminho.
