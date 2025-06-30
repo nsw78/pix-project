@@ -1,4 +1,4 @@
-# pix-project
+# Teste local do projeto para Windows com WSL + Ubuntu (PIX - Project)
 
 **Minikube rodando dentro do WSL Ubuntu no Windows 10**, explorando cada passo, com comandos, códigos, explicações e testes.
 
