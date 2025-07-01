@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pix-api-deployment
+  labels:
+    app: pix-api
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: pix-api
+  template:
+    metadata:
+      labels:
+        app: pix-api
+    spec:
+      containers:
+      - name: pix-api-container
+        image: pix-api:1.0
+        imagePullPolicy: IfNotPresent
+        ports:
+        - containerPort: 5000

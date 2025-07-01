@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: pix-api-service
+spec:
+  selector:
+    app: pix-api
+  ports:
+    - protocol: TCP
+      port: 80         # Porta do serviço no cluster
+      targetPort: 5000 # Porta do container
+  type: ClusterIP
